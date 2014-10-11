@@ -15,7 +15,7 @@
 ],
 "require": {
 "php": ">=5.5.0",
-"richestsoft/richcart-core" : "dev-master",
+"richestsoft/richcart-core" : "dev-master"
 }
 
 }
