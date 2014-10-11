@@ -15,7 +15,19 @@
 ],
 "require": {
 "php": ">=5.5.0",
-"richestsoft/richcart-core" : "dev-master"
+"richestsoft/richcart" : "dev-master"
+}
+"autoload": {
+"classmap": [
+"base/controllers",
+"base/models",
+"base/migrations",
+"base/seeds",
+"base/tests"
+]
+},
+"config": {
+"preferred-install": "dist"
 }
 
 }
