@@ -12,6 +12,10 @@
 "homepage": "http://richestsoft.com",
 "role": "WWW Services"
 }
-]
+],
+"require": {
+"php": ">=5.5.0",
+"richestsoft/richcart-core" : "dev-master",
+}
 
 }
