@@ -4,7 +4,7 @@
 "description": "e-commerce solution",
 "keywords": ["richcommerce","richestsoft","richcart", "ecommerce"],
 "homepage": "https://github.com/richestsoft/richcommerce/",
-"license": "GNU-2",
+"license": "GNU",
 "authors": [
 {
 "name": "RichestSoft",
@@ -13,18 +13,5 @@
 "role": "WWW Services"
 }
 ],
-"require": {
-"php": ">=5.5.0",
-"classpreloader/classpreloader" : "~1.0",
-"richestsoft/richcart-core" : "1.*",
-"monolog/monolog" : "~1.6"
-},
-"require-dev" : {
-"phpunit/phpunit" : "~4.0"
-},
-"autoload": {
-    "psr-0" : {
-    "Richcommerce" : "src/"
-    }
-}
+
 }
